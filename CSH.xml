@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Servers>
-<ServerGroup Name="CLASSIC Style HARDCORE" Logo="https://i.imgur.com/zCzfIV6.jpg">
-<Server Name="CSH for A21.2">
-
-<Description>Mod version: v21.2.05hf (test)
+<ServerGroup Name="CLASSIC Style HARDCORE" Logo="https://i.imgur.com/8duWP6I.jpg"> 
+<Server Name="Classic Style Hardcore">
+<Version>alpha21.2</Version>
+	<RSS/>
+	<ReleaseNotes/>
+	<DownloadMode>Release</DownloadMode>
+	<Downloads>
+		<Download>https://github.com/n2n1/Classic-Style-Hardcore-MOD/releases</Download>
+		<AltDownload>https://disk.yandex.ru/d/36PRCN5rnjtwNw</AltDownload>
+	</Downloads>
+	
+	
+<Description>Mod version: CSH v21.2.05hf (test)
 Date: 24.11.2023
 Requiring Alpha: 21.2(b30) 
 Size in archive: ~ 700Mb
+Official forum thread: https://community.7daystodie.com/topic/22253-classic-style-hardcore/
 
-Forum thread:
-https://community.7daystodie.com/topic/22253-classic-style-hardcore-mod/
 
-日本語訳作成： ちびにゃ, はぴろう, ひろけーえぬえぬ
 
-RUS:
+РУС:
 (про дополнительные возможности, совместимость сейвов, изменения в версии - читаем на оффициальном форуме)
 
 日本:
+日本語訳作成： ちびにゃ, はぴろう, ひろけーえぬえぬ
 (追加機能、保存の互換性、バージョンの変更について - 公式フォーラムで読む)
 
 ENG:
 (read about save compatibility, changes, and extensions - in the forums)
 
-**************************************************************************************************
+
+
+
+
+
+
+
+*************************************************************************************************************************
 
 TERMS of USE modification(mod) "CLASSIC Style HARDCORE" based on the game "7 Days to Die":
 1. Content created by the author of the mod or third parties, which NOT based on the developments of "The Fun Pimps" - belongs to the creators of this content.
@@ -32,15 +47,6 @@ TERMS of USE modification(mod) "CLASSIC Style HARDCORE" based on the game "7 Day
 5. To use the mod in public, or create a public server with changes in the configuration files xml, txt, dll or other resources - you must ask the author of the mod for permission.
 6. If you want to publicly use any materials or content from this mod outside of this mod, you must ask the author of the mod for permission.
 </Description>
-	<Version>alpha21.2</Version>
-	<RSS/>
-	<ReleaseNotes/>
-	<DownloadMode>Release</DownloadMode>
-	<Downloads>
-		<Download>https://github.com/n2n1/Classic-Style-Hardcore-MOD/releases</Download>
-		<AltDownload>https://disk.yandex.ru/d/36PRCN5rnjtwNw</AltDownload>
-	</Downloads>
-
 </Server>
 </ServerGroup>
 </Servers>
