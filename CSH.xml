@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Servers>
-<ServerGroup Name="CLASSIC Style HARDCORE" Logo="https://i.imgur.com/8duWP6I.jpg"> 
+<ServerGroup Name="CLASSIC Style HARDCORE" Logo="https://i.imgur.com/8duWP6I.jpg"> <!-- Logo is a direct link to a jpg /png file. Default image dimension is 2064x452 -->
 <Server Name="Classic Style Hardcore">
+<!-- This forces the mod launcher to make a copy of the game for the mod. 
+	Mod that use BepInEx, and relative paths should use this setting.
+	Remove Deploy or change it to Partial to skip that step	-->
+<!-- This is the alpha version you last tested with -->
+<!-- You can use Latest if you just want the current one -->
 <Version>alpha21.2</Version>
-	<RSS/>
-	<ReleaseNotes/>
-	<DownloadMode>Release</DownloadMode>
-	<Downloads>
-		<Download>https://github.com/n2n1/Classic-Style-Hardcore-MOD/releases</Download>
-		<AltDownload>https://disk.yandex.ru/d/36PRCN5rnjtwNw</AltDownload>
-	</Downloads>
+<DownloadMode>Release</DownloadMode>
+<!-- Only the first download is used -->
+<Downloads>
+	<Download>https://github.com/n2n1/Classic-Style-Hardcore-MOD/releases</Download>
+	<AltDownload></AltDownload>
+</Downloads>
 	
-	
+<!-- Got a website -->
+<WebSite>https://community.7daystodie.com/topic/22253-classic-style-hardcore/</WebSite>
+
 <Description>Mod version: CSH v21.2.05hf (test)
 
 Date: 24.11.2023
@@ -20,7 +26,6 @@ Requiring Alpha: 21.2(b30)
 
 Size in archive: ~ 700Mb
 
-Official forum thread: https://community.7daystodie.com/topic/22253-classic-style-hardcore/
 
 
 РУС:
@@ -34,7 +39,7 @@ ENG:
 (追加機能、保存の互換性、バージョンの変更について - 公式フォーラムで読む)
 
 
-*************************************************************************************************************************
+********************************************************************************************************************
 
 TERMS of USE modification(mod) "CLASSIC Style HARDCORE" based on the game "7 Days to Die":
 
@@ -45,6 +50,24 @@ TERMS of USE modification(mod) "CLASSIC Style HARDCORE" based on the game "7 Day
 5. To use the mod in public, or create a public server with changes in the configuration files xml, txt, dll or other resources - you must ask the author of the mod for permission.
 6. If you want to publicly use any materials or content from this mod outside of this mod, you must ask the author of the mod for permission.
 </Description>
+
+
+
+
+<!-- Who made -->
+<Author>n2n1</Author>
+
+<!-- Have a discord you want people to join? -->
+<Discord></Discord>
+
+<!-- Want to give people an option to donate? -->
+<Donate></Donate>
+
+<!-- Got some release notes you want people to view? -->
+<ReleaseNotes></ReleaseNotes>
+
+	<RSS/>
+
 </Server>
 </ServerGroup>
 </Servers>
